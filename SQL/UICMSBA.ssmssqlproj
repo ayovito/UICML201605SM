@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="UICMSBA">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="CH54EXTW1215:CROWE-CHIZEK\MouradS">
+          <Created>2016-01-07T19:55:58.0455327-06:00</Created>
+          <Type>SQL</Type>
+          <Server>CH54EXTW1215</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>UIC</InitialDB>
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="01 - SQL.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CH54EXTW1215:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CH54EXTW1215</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>01 - SQL.sql</FullPath>
+        </FileNode>
+        <FileNode Name="02- dimTables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CH54EXTW1215:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CH54EXTW1215</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>02- dimTables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="03- Restructure.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CH54EXTW1215:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CH54EXTW1215</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>03- Restructure.sql</FullPath>
+        </FileNode>
+        <FileNode Name="04- vw_DataFrame.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CH54EXTW1215:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CH54EXTW1215</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04- vw_DataFrame.sql</FullPath>
+        </FileNode>
+        <FileNode Name="10-Checks.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CH54EXTW1215:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CH54EXTW1215</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10-Checks.sql</FullPath>
+        </FileNode>
+        <FileNode Name="99- Drop all.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:CH54EXTW1215:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>CH54EXTW1215</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>99- Drop all.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
